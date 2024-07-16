@@ -4,8 +4,6 @@ sidebar_label: logx
 slug: /docs/components/logx
 ---
 
-`logx` 是一个 Go 语言编写的日志库，提供了丰富的日志功能和配置选项。下面是对该库中可导出内容的详细说明及示例代码。
-
 ## 类型与方法说明
 
 ### 1. `LogConf`

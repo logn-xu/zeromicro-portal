@@ -4,8 +4,6 @@ sidebar_label: logx
 slug: /docs/components/logx
 ---
 
-`logx` is a logging library written in Go that provides rich logging features and configuration options. Below is the detailed explanation of the exportable content of this library along with example code.
-
 ## Types and Method Descriptions
 
 ### 1. `LogConf`
