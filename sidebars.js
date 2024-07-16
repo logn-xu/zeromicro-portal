@@ -359,13 +359,12 @@ module.exports = {
         },
     ],
     components: [
-        'components',
         {
             type: 'category',
             label: '限流器',
             collapsed: false,
             items: [
-                'components/limiter/token',
+                'components',
                 'components/limiter/peroid',
             ],
         },
