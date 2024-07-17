@@ -405,6 +405,14 @@ module.exports = {
                 'faq/http/fileserver',
             ],
         },
+        {
+            type: 'category',
+            label: '日志',
+            collapsed: false,
+            items: [
+                'faq/log/fileconsole',
+            ],
+        },
     ],
     contributing: [
         'contributing',
