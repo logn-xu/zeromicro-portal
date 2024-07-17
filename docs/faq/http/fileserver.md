@@ -21,7 +21,7 @@ func main() {
 	server := rest.MustNewServer(rest.RestConf{
 		Host: "localhost",
 		Port: 4000,
-	}, rest.WithFileServer("/static", "html"))
+	}, rest.WithFileServer("/static", http.Dir("html")))
 	defer server.Stop()
 
 	server.AddRoute(rest.Route{
