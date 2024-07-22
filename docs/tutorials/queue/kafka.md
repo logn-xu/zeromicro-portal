@@ -266,7 +266,7 @@ func main() {
 }
 ```
 
-当然，consumer 中在 mqs.go 中 kq.MustNewQueue 初始化时候点个参数也是可选参数
+当然，consumer 中在 mqs.go 中 kq.MustNewQueue 初始化时候这个参数也是可选参数
 
 - commitInterval : 提交给 kafka broker 间隔时间，默认是 1s
 - queueCapacity：kafka 内部队列长度
