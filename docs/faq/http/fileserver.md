@@ -130,4 +130,4 @@ func (n NotFoundHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 }
 ```
 
-以上fileServer 版本要求：> go-zero 版本：>= v1.7.0
+> go-zero 版本：>= v1.7.0
