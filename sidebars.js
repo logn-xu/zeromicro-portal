@@ -403,6 +403,7 @@ module.exports = {
             collapsed: false,
             items: [
                 'faq/http/fileserver',
+                'faq/http/cors',
             ],
         },
         {
