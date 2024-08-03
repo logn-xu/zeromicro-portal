@@ -64,7 +64,7 @@ module.exports = {
                         {
                             html: `
                 <a href="https://landscape.cncf.io/?selected=go-zero" target="_blank" rel="noreferrer noopener" aria-label="CNCF">
-                  <img src="https://landscape.cncf.io/images/left-logo.svg" alt="CNCF" width="100" height="50" />
+                  <img src="https://landscape.cncf.io/images/cncf-landscape-horizontal-color.svg" alt="CNCF" width="100" height="50" />
                 </a>
               `,
                         },
@@ -160,7 +160,7 @@ module.exports = {
                     position: 'right',
                     icon: {
                         alt: 'github logo',
-                        src: `/logos/github.svg`,
+                        src: `https://img.shields.io/github/stars/zeromicro/go-zero`,
                         href: 'https://github.com/zeromicro/go-zero',
                         target: '_blank',
                     },
