@@ -174,6 +174,7 @@ func main() {
 配置文件如下：
 
 ```yaml
-Mode: file
-Encoding: json
+Log:
+  Mode: file
+  Encoding: json
 ```
